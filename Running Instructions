@@ -1,0 +1,59 @@
+proglang-pp2
+
+Running instructions
+
+Linux
+
+Install go using apt:
+
+$ sudo apt install golang
+Set gopath:
+
+$ mkdir ~/go
+$ export GOPATH=$HOME/go
+Get files:
+
+$ go get github.com/RigobertoTorres/ProLangTermpt2
+Run all demos:
+
+$ cd $GOPATH/src/github.com/RigobertoTorres/ProLangTermpt2
+For Problem #1:
+  $ go run missingInt.go
+For Problem #2:
+  $ go run balancedParenthesis.go
+For Problem #3:
+  $ go run permutations.go
+For Problem #4:
+  $ go run fileIO.go
+For Problem #5:
+  $ go run threecrime.go
+  
+Windows
+
+Install Go
+
+Create a workspace:
+
+C:\>mkdir goWorkspace
+C:\>cd goWorkspace
+Set the gopath to that directory:
+
+C:\goWorkspace>set GOPATH=C:\goWorkspace
+Get files:
+
+>go get github.com/RigobertoTorres/ProLangTermpt2
+Compile Demo:
+
+>go install github.com/RigobertoTorres/ProLangTermpt2
+Run all demos:
+
+For Problem #1:
+  > go run missingInt.go
+For Problem #2:
+  > go run balancedParenthesis.go
+For Problem #3:
+  > go run permutations.go
+For Problem #4:
+  > go run fileIO.go
+For Problem #5:
+  > go run threecrime.go
