@@ -1,0 +1,2 @@
+This is a test program.
+I am counting only words.
