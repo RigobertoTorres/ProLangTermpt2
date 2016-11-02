@@ -147,7 +147,7 @@ func getInput(prompt string) string {
 	fmt.Printf("%s ", prompt)
 	reader := bufio.NewReader(os.Stdin)
 	nStr, _ := reader.ReadString('\n')
-	return strings.TrimRight(nStr, "\n")
+	return strings.TrimRight(nStr, "\r\n")
 }
 
 // just a helper to convert a string to an int
